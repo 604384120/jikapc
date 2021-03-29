@@ -1,0 +1,400 @@
+/*主框架吊顶栏样式自定义*/
+.ant-layout-header {
+	height: 76px;
+	line-height: 76px;
+	overflow: hidden;
+}
+/*主框架菜单栏样式自定义*/
+a:hover,
+.mainTitleBar_back:hover,
+.ant-layout-header .anticon:hover {
+	color: #17adf6 !important;
+}
+
+header .ant-menu-dark,
+header .ant-menu-dark .ant-menu-sub,
+header .box {
+	background: #43546a !important;
+}
+
+.ant-menu-dark,
+.ant-layout-sider,
+.ant-menu-dark .ant-menu-sub {
+	background: #324158;
+	color: #fff;
+}
+
+.ant-menu-dark .ant-menu-item > a {
+	color: #fff;
+}
+
+.ant-menu-dark .ant-menu-item {
+	color: #fff;
+}
+.ant-menu-dark .ant-menu-item-active {
+	color: #17adf6 !important;
+}
+.ant-menu-dark .ant-menu-item-selected {
+	background: #324158 !important;
+}
+
+.ant-menu-submenu.ant-menu-submenu-popup.ant-menu-submenu-placement-rightTop
+	ul.ant-menu.ant-menu-sub,
+.ant-menu-submenu.ant-menu-submenu-selected,
+.ant-menu-singlemenu.ant-menu-item-selected,
+.ant-menu-submenu:hover {
+	background: #1e2c3c !important;
+}
+.siderMenuTop .ant-menu-submenu-selected {
+	background: none !important;
+}
+.siderMenuTop .ant-menu-submenu-selected:hover {
+	background: #1e2c3c !important;
+}
+
+.ant-layout-sider .ant-menu-submenu,
+.ant-layout-sider .ant-menu-submenu {
+	margin-bottom: 10px;
+}
+
+.ant-layout-sider .ant-menu-submenu .ant-menu-submenu-title,
+.ant-layout-sider .ant-menu-submenu .ant-menu-submenu-title a,
+.ant-layout-sider .ant-menu-submenu .ant-menu-submenu-title i.anticon {
+	height: 46px !important;
+	line-height: 46px !important;
+	vertical-align: middle;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+.ant-menu-submenu .ant-menu-submenu-title a {
+	display: block;
+	color: #fff;
+}
+
+.ant-menu-submenu.ant-menu-submenu-popup.ant-menu-submenu-placement-rightTop
+	ul.ant-menu.ant-menu-sub {
+	/*border-radius: 0;*/
+}
+
+.ant-menu-inline-collapsed .ant-menu-submenu-title i.anticon {
+	margin: 0 !important;
+}
+.ant-menu-submenu.ant-menu-submenu-vertical .ant-menu-submenu-title i.anticon {
+	margin: 0 25px;
+}
+.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-horizontal > .ant-menu-submenu {
+	vertical-align: top;
+}
+
+.ant-menu-vertical .TopMenu {
+	padding-left: 25px;
+}
+.ant-menu-vertical .TopMenu i {
+	margin-right: 25px;
+	vertical-align: sub;
+}
+.ant-menu-inline-collapsed .TopMenu {
+	padding-left: 0px;
+}
+
+/*顶部进度条*/
+.TopProgress.ant-progress-line {
+	position: fixed;
+	top: -13px;
+	left: 0;
+	z-index: 9999999;
+}
+.TopProgress .ant-progress-inner {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/*table 列表样式*/
+.react-resizable {
+	position: relative;
+	background-clip: padding-box;
+}
+
+.react-resizable-handle {
+	position: absolute;
+	width: 10px;
+	height: 100%;
+	bottom: 0;
+	right: -5px;
+	cursor: col-resize;
+	z-index: 1;
+}
+
+.ant-table-thead > tr > th .ant-table-header-column {
+	width: -webkit-fill-available;
+	/* cursor: w-resize; */
+}
+
+.ant-table-small > .ant-table-content > .ant-table-body {
+	margin: 0;
+}
+
+.ant-table-body {
+	overflow-x: auto !important;
+}
+
+.ant-table-selection-column .ant-radio-wrapper {
+	margin-bottom: 0;
+}
+
+/*分页样式自定义*/
+.ant-pagination-simple .ant-pagination-simple-pager {
+	/*	width: 50px;
+	overflow: hidden;*/
+}
+.ant-pagination-simple .ant-pagination-simple-pager input {
+	/*border: none;*/
+}
+.ant-table-pagination.ant-pagination {
+	float: left;
+}
+.nPointer tr {
+	cursor: pointer;
+}
+
+/*顶部浮窗*/
+.ant-drawer-top .ant-drawer-content-wrapper {
+	height: auto !important;
+	max-height: 100%;
+	margin-top: 56px;
+	overflow-y: hidden;
+}
+.ant-drawer.ant-drawer-top .ant-drawer-wrapper-body {
+	overflow-y: hidden !important;
+}
+.ant-drawer.ant-drawer-top .ant-drawer-body {
+	height: 100%;
+	overflow-y: auto;
+}
+
+/*右侧浮窗*/
+.ant-drawer.CUSTOM_detailslayer {
+	z-index: 990 !important;
+}
+.ant-drawer.CUSTOM_detailslayer_full {
+	z-index: 1000 !important;
+	right: 0 !important;
+}
+
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-header {
+	height: 32px;
+	padding: 0 24px;
+	box-shadow: 0 0 3px 1px #ddd;
+	border-bottom: none;
+	z-index: 99;
+	opacity: 0;
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-wrapper-body {
+	overflow-y: hidden !important;
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-body {
+	height: 90%;
+	padding: 0 !important;
+	overflow-y: auto;
+	/* margin-top: -32px; */
+}
+
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-content {
+	background: none;
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-content-wrapper {
+	margin-top: 76px;
+}
+.ant-drawer.CUSTOM_detailslayer_full .ant-drawer-content-wrapper {
+	margin-top: 0 !important;
+}
+
+.ant-drawer.CUSTOM_detailslayer {
+	transform: translateX(0px) !important;
+}
+.ant-drawer.CUSTOM_detailslayer.ant-drawer-open.ant-drawer-top {
+	transform: translateY(0px) !important;
+}
+.ant-drawer.CUSTOM_detailslayer .drawer_bottombutton {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px solid #e8e8e8;
+	padding: 10px 16px;
+	text-align: left;
+	left: 0;
+	background: #fff;
+	border-radius: 0 0 4px 4px;
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-title {
+	margin-left: 40px;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.65);
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-close {
+	right: none;
+	left: 0;
+	width: 46px;
+	height: 32px;
+	line-height: 32px;
+	border-right: 1px solid #e8e8e8;
+	cursor: pointer;
+	font-size: 14px;
+}
+.ant-drawer.CUSTOM_detailslayer .ant-drawer-close:hover {
+	background: #1890ff;
+	color: #fff;
+}
+.ant-drawer.CUSTOM_detailslayer .drawer_bottombutton button {
+	margin-right: 8px;
+}
+
+/*自定义表格样式*/
+.ant-table-small .ant-table-column-title {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/*自定义上传图片展示样式*/
+.ant-upload-list-picture-card .ant-upload-list-item,
+.ant-upload.ant-upload-select-picture-card {
+	margin-bottom: 0px;
+}
+.ant-upload-list-picture-card .ant-upload-list-item-info {
+	background-color: #666;
+}
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail,
+.ant-upload-list-picture-card .ant-upload-list-item-thumbnail img {
+	position: absolute;
+	height: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+/*表单单元展示内容样式*/
+.ant-form-item {
+	margin-bottom: 10px;
+}
+
+/*内容描述布局样式*/
+.ant-descriptions.small .ant-descriptions-title {
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #1890ff;
+}
+
+/*按钮样式*/
+.ant-btn {
+	vertical-align: top;
+}
+.ant-btn > .anticon + span {
+	margin-left: 0;
+}
+.ant-btn-primary {
+	background-color: #3fadff;
+	border: none;
+}
+.ant-btn-primary:hover {
+	background-color: rgb(63, 173, 255, 0.85);
+}
+.ant-btn-danger,
+.ant-btn-danger:focus {
+	color: #fff;
+	background-color: #ff4d4f;
+	border-color: #ff4d4f;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+.ant-btn-danger:hover {
+	background-color: #f77f80;
+	border-color: #f77f80;
+}
+.ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only)
+	.anticon:not(:last-child) {
+	margin: 0 10px 0 0;
+}
+
+/*上传样式*/
+.ant-upload-list.ant-upload-list-picture {
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.ant-upload-list-item-card-actions a[title="下载文件"] {
+	display: none;
+}
+.ant-upload-list-item-card-actions .anticon-delete {
+	font-size: 18px;
+	color: red;
+	padding: 0 10px;
+}
+.ant-upload-list-item-progress .ant-progress-outer {
+	width: 90% !important;
+}
+
+.ant-form-item-control-wrapper {
+	padding-left: 10px;
+}
+td .ant-form-item-control-wrapper {
+	padding-left: 0px;
+}
+
+/*单选按钮样式*/
+.va_tt .ant-radio-group.ant-radio-group-outline {
+	vertical-align: text-top;
+}
+
+.ant-radio-wrapper {
+	margin-bottom: 10px;
+}
+.dis_b .ant-radio-group.ant-radio-group-outline .ant-radio-wrapper {
+	display: block;
+}
+
+/*input*/
+.no-border .ant-input {
+	border: none;
+	background: rgba(247, 247, 247, 1);
+}
+
+/*modal*/
+.ant-modal-close-x {
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+}
+.ant-modal-title {
+	font-size: 15px;
+	font-weight: bold;
+}
+.ant-modal-header {
+	padding: 14px 24px;
+}
+
+/*内容标题*/
+h1.ant-typography,
+.ant-typography h1 {
+	font-size: 24px;
+}
+h2.ant-typography,
+.ant-typography h2 {
+	font-weight: normal;
+	font-size: 18px;
+}
+/* 模态框内容左边距 */
+.exam-modal .ant-modal-confirm-content {
+	margin-left: 0 !important;
+}
+/* 标签页标题样色 */
+.ant-tabs-nav .ant-tabs-tab-active {
+	color: #1bacf4 !important;
+}
+.ant-table-title {
+	padding: 8px 0 !important;
+}

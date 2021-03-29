@@ -1,0 +1,39 @@
+.loginModal .flex-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.loginModal .input_wrap{
+	border-bottom: 1px solid #D9D9D9;
+	margin: 19px 0 23px;
+}
+
+.loginModal .input_wrap .ant-input{
+	border:none;
+	line-height: 40px;
+}
+.loginModal .input_wrap .ant-input-affix-wrapper .ant-input:not(:last-child){
+	padding-left: 0;
+}
+.loginModal .input_wrap .ant-input:focus{
+	border:none;
+	box-shadow: none;
+}
+.loginModal .input_wrap .ant-form-item-control-wrapper{
+	padding-left: 0;
+}
+.loginModal .input_wrap .ant-form-item-control{
+	line-height: normal;
+}
+.loginModal .input_wrap .ant-btn{
+	border: none;
+}
+
+.loginModal .ant-modal-content{
+	border-radius: 10px;
+}
+
+.loginModal .ant-btn[disabled]{
+	background: none !important;
+}

@@ -1,0 +1,206 @@
+.radioBtn{
+  display: flex;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.radioBtn .ant-radio-button-wrapper:not(:first-child)::before{
+  content: '';
+  display: none;
+}
+
+.customTable {
+  width: 100%;
+  margin-bottom: 30px;
+  table-layout: fixed;
+}
+
+.customTable table {
+  table-layout:fixed;
+  width: 100%;
+  border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.customTable tr + tr {
+  border-top: 1px solid rgba(230, 230, 230, 1);
+}
+
+.customTable td,.customTable th {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.thTitle {
+  background: rgba(230, 230, 230, 1);
+}
+
+.thTitle th {
+  text-align: left !important;
+}
+
+.thTitle th div {
+  float: right;
+}
+
+.norm {
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #999999;
+  margin-right: 5px;
+}
+
+.elect {
+  border: 1px solid;
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #FFFFFF;
+  margin: 0 5px 0 10px;
+}
+
+.low {
+  margin: 0 5px 0 10px;
+}
+
+.popoverBox {
+  position: relative;
+}
+
+.popoverBox > span,.popoverBox > a {
+  color: rgba(89, 89, 89, 1);
+  padding: 0 12px;
+}
+
+.thFirst {
+  position: relative;
+}
+
+.thFirst > span:nth-child(1) {
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+}
+
+.activeHover:hover {
+  background-color: red;
+}
+
+span.easyui {
+  background-color: rgb(222, 222, 222);
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover{
+  box-shadow: none;
+}
+
+.fixBox {
+  position: absolute;
+  bottom: 420px;
+  right: 26px;
+  cursor: pointer
+}
+
+.fixBox .ant-scroll-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.fixBox_span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 0 0;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(24, 144, 255, 1);
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+}
+
+
+.cardbody{
+  margin-top: 24;
+  height: 280px;
+}
+
+.cardbody .ant-card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.borderL {
+  border-left: 4px solid #1890FF;
+  height: 16px;
+  padding-left: 8px;
+  line-height: 16px;
+}
+
+.uploadDisImg {
+  margin:-20px 0 0 0px;
+  background-color: #F5F5F5;
+  line-height: 180px;
+  text-align: center;
+  width: 240px;
+  height: 180px;
+  border: 1px dashed rgb(161, 161, 161);
+}
+
+.uploadImgBox {
+  width:100%;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.bannerPrev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100px;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100px;
+  cursor:pointer
+}
+
+.bannerNext {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100px;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100px;
+  cursor:pointer
+}
+
+.deleteImg {
+  position: absolute;
+  /* display: inline-block; */
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #d6d5cb;
+  font-size: 12px;
+  top: 1px;
+  right: 2px;
+}

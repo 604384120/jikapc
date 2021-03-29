@@ -1,0 +1,194 @@
+
+.welcomeBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: -24px;
+  background: url(https://sxzimgs.oss-cn-shanghai.aliyuncs.com/yingxiao/page/0d65c1e6-f32d-11ea-aba7-00163e0e1996.png) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.welcomeBox1 {
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+}
+
+.titleWel {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 50px;
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+.titleWel img {
+  margin-right: 20px;
+}
+
+.welcome {
+  display: inline-block;
+  width: 440px;
+  height: 500px;
+  border: 1px solid #bfbfbf;
+  background: #ffffff;
+  align-self: flex-end;
+  margin: 0 6% 10% 0;
+}
+
+.welcome1 {
+  margin: 100px auto;
+  width: 800px;
+  height: 500px;
+  display: block;
+  background: #ffffff;
+}
+
+.welcome1 > span {
+  padding-left: 15px;
+  color: rgba(24, 144, 255, 1);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.welcome1 form {
+  width: 430px;
+  margin: 0 auto;
+}
+
+.welcome > a {
+  display: block;
+  text-align: center;
+}
+
+.welcome > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.resetPassword {
+  float: right;
+  margin: -20px 0 20px 0;
+}
+
+.passwordBox {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.passwordBox .passwordItem {
+  display: flex;
+}
+
+.passwordBox .passwordItem > span {
+  /* flex-grow:2; */
+  /* width: 200px; */
+}
+
+.passwordBox .passwordItem .passwordTitle {
+  display: inline-block;
+  width: 84px !important;
+  text-align: right;
+  line-height: 40px;
+  /* flex-grow:1; */
+}
+
+.sinUpTitle {
+  text-align: center;
+}
+
+.sinUpTitle img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+.sinUpTitle span{
+  display: block;
+  margin: 10px 0;
+  color: rgba(153, 153, 153, 1);
+}
+
+.phoneBox {
+  margin-left: 75px;
+  display: flex;
+}
+
+.phoneBox > span {
+  text-align: right;
+  width: 106px;
+}
+
+.phoneBox span span:nth-child(2) {
+  font-size: 12px;
+  display: inline-block;
+  width: 60px;
+  margin: 5px 16px 0 0;
+}
+
+.phoneBox > div {
+  width: 50%;
+  height: 120px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.phoneBox > div div {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.phoneBox > div img {
+  width: 220px;
+  height: 120px;
+}
+
+
+
+/* 以前的样式 */
+.loginModal .flex-between{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.loginModal .input_wrap{
+	border-bottom: 1px solid #D9D9D9;
+	margin: 19px 0 23px;
+}
+
+.loginModal .input_wrap .ant-input{
+	border:none;
+	line-height: 40px;
+}
+.loginModal .input_wrap .ant-input-affix-wrapper .ant-input:not(:last-child){
+	padding-left: 0;
+}
+.loginModal .input_wrap .ant-input:focus{
+	border:none;
+	box-shadow: none;
+}
+.loginModal .input_wrap .ant-form-item-control-wrapper{
+	padding-left: 0;
+}
+.loginModal .input_wrap .ant-form-item-control{
+	line-height: normal;
+}
+.loginModal .input_wrap .ant-btn{
+	border: none;
+}
+
+.loginModal .ant-modal-content{
+	border-radius: 10px;
+}
+
+.loginModal .ant-btn[disabled]{
+	background: none !important;
+}
+
+

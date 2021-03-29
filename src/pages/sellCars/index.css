@@ -1,0 +1,71 @@
+
+.cardbody{
+  margin-top: 24;
+  height: 280px;
+}
+
+.cardbody .ant-card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.borderL {
+  border-left: 4px solid #1890FF;
+  height: 16px;
+  padding-left: 8px;
+  line-height: 16px;
+}
+
+.uploadDisImg {
+  margin:-20px 0 0 0px;
+  background-color: #F5F5F5;
+  line-height: 180px;
+  text-align: center;
+  width: 240px;
+  height: 180px;
+  border: 1px dashed rgb(161, 161, 161);
+}
+
+.uploadImgBox {
+  width:100%;
+  display: flex;
+  align-items: center;
+  /* padding-left: 60px; */
+}
+
+.bannerPrev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100px;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100px;
+}
+
+.bannerNext {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100px;
+  background-color: #000000;
+  opacity: 0.5;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 100px;
+}
+
+.deleteImg {
+  position: absolute;
+  /* display: inline-block; */
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: #d6d5cb;
+  font-size: 12px;
+  top: 1px;
+  right: 2px;
+}

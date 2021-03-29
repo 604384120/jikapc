@@ -1,0 +1,25 @@
+/*ck编辑器*/
+.ck.ck-content.ck-editor__editable_inline {
+	min-height: 300px;
+	max-height: 500px;
+}
+/*可编辑节点*/
+.contentEditable {
+	min-height: 200px;
+	max-height: 400px;
+	overflow-y: auto;
+	border: 1px solid #d9d9d9;
+	padding: 0 10px;
+	border-radius: 4px;
+}
+.contentEditable:empty:before {
+	content: attr(placeholder);
+	color: #bbb;
+}
+.contentEditable:focus {
+	content: none;
+}
+.ck-editor__main p{
+	line-height: 20px;
+	margin: 0.5em 0;
+}

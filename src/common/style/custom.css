@@ -1,0 +1,115 @@
+/*自定义样式*/
+/*浮层滚动条*/
+.CUSTOM_scroll {
+	padding-right: 20px;
+	outline: none;
+}
+.CUSTOM_scroll::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+/*正常情况下滑块的样式*/
+.CUSTOM_scroll::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.1);
+	/*border-radius: 10px;*/
+	/* -webkit-box-shadow: inset 0px 0px 0 rgba(0, 0, 0, 0.1); */
+}
+/*正常时候的主干部分*/
+.CUSTOM_scroll::-webkit-scrollbar-track {
+	/*border-radius: 10px;*/
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); */
+	background-color: #eee;
+}
+/*鼠标悬浮在该类指向的控件上时滑块的样式*/
+.CUSTOM_scroll:hover::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.2);
+	/*border-radius: 10px;*/
+	/* -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1); */
+}
+/*鼠标悬浮在滑块上时滑块的样式*/
+.CUSTOM_scroll::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+	/* -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1); */
+}
+/*鼠标悬浮在滚动条上的主干部分*/
+.CUSTOM_scroll::-webkit-scrollbar-track:hover {
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4); */
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*表单输入框*/
+.Custom_CreateForm_Inputs .ant-input-affix-wrapper {
+	width: auto;
+}
+
+/*列表滚动条*/
+.CUSTOM_scroll .ant-list-item-action {
+	margin-left: 10px !important;
+}
+
+/*描点*/
+.CUSTOM_anchor .ant-affix {
+	top: 5px !important;
+	z-index: 999;
+	left: 8px;
+	width: 187px !important;
+}
+
+/*doc文档*/
+.CUSTOM_doc .ant-typography pre {
+	padding: 0 1em !important;
+	background: rgb(22, 22, 22) !important;
+}
+.CUSTOM_doc .ant-typography pre code {
+	position: relative !important;
+	left: -145px !important;
+}
+
+/*插件样式*/
+.PLUGINS_pickerMap .ant-modal-body {
+	padding: 0;
+}
+
+/*组件过渡动画*/
+.fade-enter {
+	opacity: 0;
+}
+
+.fade-enter-active {
+	opacity: 1;
+	transition: opacity 1s ease-in;
+}
+
+.fade-enter-done {
+	opacity: 1;
+}
+
+.fade-exit {
+	opacity: 1;
+}
+
+.fade-exit-active {
+	opacity: 0;
+	transition: opacity 1s ease-in;
+}
+
+.fade-exit-done {
+	opacity: 0;
+}
+
+.fade-appear {
+	opacity: 0;
+}
+
+.fade-appear-active {
+	opacity: 1;
+	transition: opacity 1s ease-in;
+}
+
+/*业务组件*/
+.CUSTOM_choiceScroll .ant-table-fixed-left .ant-table-body-outer {
+	margin-bottom: 0 !important;
+}
+.CUSTOM_choiceScroll .ant-table-fixed-left .ant-table-body-inner {
+	overflow-x: auto;
+}
